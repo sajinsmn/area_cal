@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Area Finder Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Area Finder Calculator</h1>
+    <p>Select a shape and enter its dimensions:</p>
+
+    <label for="shape">Choose Shape:</label>
+    <select id="shape">
+      <option value="circle">Circle</option>
+      <option value="rectangle">Rectangle</option>
+      <option value="triangle">Triangle</option>
+      <option value="square">Square</option>
+    </select>
+
+    <div id="inputs" class="inputs"></div>
+
+    <button id="calculate">Calculate Area</button>
+
+    <div id="result">
+      <h2>Result:</h2>
+      <p id="result-text">Choose a shape and enter dimensions</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
